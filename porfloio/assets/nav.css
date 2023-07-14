@@ -6,6 +6,7 @@ nav {
   transition: backgrund-color 0.4s ease-in-out;
   width: 100%;
   height: auto;
+  background-color: #fff;
 }
 
 nav .mainMenu {
