@@ -34,15 +34,16 @@
         <div class="closeMenu"><i class="fa-solid fa-xmark"></i></div>
       </ul>
     </nav>
-    <div class="text-box" id="home">
-      <p>Front-End Developer</p>
-      <h1>Hi,I'm <span class="auto-input"></span>from Targu Mures.</h1>
+    <div class="text-box hidden" id="home">
+      <p>Hi,I'm </p>
+      <h1>Borbely Tibor from Targu Mures.</h1>
+      <p><span class="auto-input"></span></p>
     </div>
     <!----------about------------>
     <div id="about">
-      <div class="container">
+      <div class="container hidden">
         <div class="row">
-          <div class="about-col-1">
+          <div class="about-col-1 hidden">
             <img src="assets/images/pfp.jpg" alt="pfp">
           </div>
           <div class="about-col-2">
@@ -85,10 +86,10 @@
     </div>
     <!----------projects------------>
     <div id="projects">
-      <div class="container">
-        <h1 class="sub-title">My Work</h1>
+      <div class="container hidden">
+        <h1 class="sub-title hidden">My Work</h1>
         <div class="work-list">
-          <div class="work">
+          <div class="work hidden">
             <img src="assets/images/work4.png">
             <div class="layer">
               <h3>Transylvania Home</h3>
@@ -96,7 +97,7 @@
               <a href="https://transylvania-homes.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
           </div>
-          <div class="work">
+          <div class="work hidden">
             <img src="assets/images/work2.png">
             <div class="layer">
               <h3>SpaceX Clone</h3>
@@ -104,7 +105,7 @@
               <a href="https://spacex-clone-phi.vercel.app" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
           </div>
-          <div class="work">
+          <div class="work hidden">
             <img src="assets/images/work5.png">
             <div class="layer">
               <h3>Tasty Treats</h3>
@@ -113,12 +114,12 @@
             </div>
           </div>
         </div>
-        <a href="#" class="btn">See more</a>
+        <!-- <a href="#" class="btn">See more</a> -->
       </div>
     </div>
     <!----------- contact--------------->
     <div id="contact">
-      <div class="container">
+      <div class="container hidden">
         <div class="row">
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
@@ -152,7 +153,7 @@
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script>
   var typed = new Typed(".auto-input", {
-    strings: ["Borbely Tibor",],
+    strings: ["Junior Front-End Developer",],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
