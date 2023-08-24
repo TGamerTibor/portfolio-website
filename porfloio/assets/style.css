@@ -11,9 +11,9 @@ html {
 
 .hidden {
   opacity: 0;
-  transition: all 1s;
-  filter: blur(5px);
-  transform: translateX(-100%);
+  transition: all 2.5s;
+  filter: blur(3px);
+  transform: translateZ(-100%);
 }
 
 .show {
