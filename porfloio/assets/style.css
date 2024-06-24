@@ -37,19 +37,19 @@ body {
 
 .text-box {
   margin-top: 20%;
-  font-size: 30px;
-  letter-spacing: 1px;
+  font-size: 20px;
+  letter-spacing: 10px;
   line-height: 26px;
-  text-align: center;
+  text-align: left;
 }
 
 .text-box p {
-  font-size: 3rem;
+  font-size: 8rem;
   font-weight: 400;
 }
 
 .text-box h1 {
-  font-size: 5.5rem;
+  font-size: 8rem;
   line-height: 120px;
 }
 
