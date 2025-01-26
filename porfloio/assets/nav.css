@@ -4,7 +4,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   transition: backgrund-color 0.4s ease-in-out;
-  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .09);
   width: 100%;
   height: auto;
   background-color: #fff;
@@ -12,7 +12,18 @@ nav {
   position: fixed;
   right: 0;
   z-index: 1000;
-  padding-left: 15px;
+  padding: 25px 40px 25px 50px;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+nav ul a {
+  color: #2d2e32;
+  font-weight: 600;
+  text-decoration: none;
+  transition:all .23s;
 }
 
 nav .mainMenu {
@@ -22,10 +33,9 @@ nav .mainMenu {
 
 nav .mainMenu li a {
   display: inline-block;
-  padding: 15px;
   text-decoration: none;
   color: #2d2e32;
-  font-size: 17px;
+  font-size: 1.8rem;
   transition: .23s all;
   font-weight: 600;
 
@@ -75,7 +85,7 @@ nav .logo {
 }
 
 @media (max-width: 800px) {
-  nav .mainMenu {
+   nav .mainMenu {
     height: 100vh;
     position: fixed;
     top: 0px;
@@ -86,7 +96,7 @@ nav .logo {
     justify-content: center;
     align-items: center;
     background: #fff;
-    transition: top 1s ease 0s;
+    transition: all .3s ease-in-out;
     display: none;
   }
 
@@ -94,14 +104,15 @@ nav .logo {
     display: block;
     position: absolute;
     top: 20px;
-    right: 20px;
-    font-size: 25px;
+    right: 40px;
+    font-size: 26px;
   }
 
   nav .openMenu {
     display: block;
     color: #000;
     font-size: 25px;
+    margin: 0;
   }
 
   nav .mainMenu li a:hover {
@@ -122,4 +133,4 @@ nav .logo {
   #root {
     padding: 0 1.7rem;
   }
-}
+ }
