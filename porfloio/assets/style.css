@@ -543,7 +543,7 @@ form .btn2 {
 }
 
 .hero-img {
-  background-image: url("/porfloio/assets/images/pfp4.jpg");
+  background-image: url("src=https://borbelytibor.vercel.app/porfloio/assets/images/pfp4.jpg");
   width: 35rem;
   height: 35rem;
   background-size: cover;
