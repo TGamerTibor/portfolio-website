@@ -452,6 +452,15 @@ form .btn2 {
   margin-top: 2rem;
 }
 
+.hero-text a {
+  text-decoration: none;
+  color: #555555;
+  transition: all 0.2s;
+}
+.hero-text a:hover {
+  color: green;
+}
+
 @media (max-width: 500px) {
   .hero-text h1 {
     font-size: 4rem;
